@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background: #222;
+    font-family: 'Arial Black', sans-serif;
+    touch-action: none;
+}
+
+#ui {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    box-sizing: border-box;
+    z-index: 100;
+    pointer-events: none;
+}
+
+#score-container {
+    color: #fff;
+    font-size: 30px;
+    text-shadow: 0 0 10px #00fff2;
+}
+
+#reset-btn {
+    pointer-events: auto;
+    background: #ff0077;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+canvas { display: block; }
