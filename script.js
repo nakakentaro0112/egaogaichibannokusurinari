@@ -6,7 +6,7 @@ const resetBtn = document.getElementById('reset-btn');
 let width, height;
 let tsums = [];
 let selectedTsums = [];
-const emojis = ['CHINKO', '🐸', '🐰', '🐷', '🐻'];
+const emojis = ['CHINKO', '🐸', 'CHINCHIN', '🐷', '🐻'];
 let score = 0;
 
 function init() {
